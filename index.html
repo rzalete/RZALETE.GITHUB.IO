@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>E-Groceries</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/index.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="logo">Moqups</div>
+			<div class="nav">
+				<div class="nav-item"><a href="#home">Home</a></div>
+				<div class="nav-item nav-center"><a href="#our-package">Our Package</a></div>
+				<div class="nav-item"><a href="#call-us">Call Us</a></div>
+			</div>
+		</header>
+		<main>
+			<section id="home">
+				<div class="title">
+					<h1>Top Rated E-Groceries Shop in Indonesia</h1>
+					<h3>Every Day with best ingredients</h3>
+				</div>
+				<div class="column-container">
+					<div class="column-left">
+						<div class="banner" id="banner">
+							<img src="./assets/img1.png" alt="" width="100%" />
+							<img src="./assets/img2.png" alt="" width="100%" />
+							<img src="./assets/img3.png" alt="" width="100%" />
+						</div>
+						<script src="./javascript/autoSlide.js"></script>
+
+						<p>"setiap hari beli sayur buah yang fresh di sini"</p>
+						<div class="user-box">
+							<img src="./assets/user-icon.png" alt="" />
+							<div class="user">
+								<h6>Florence Hughes</h6>
+								<p>Ibu rumah tangga, 28</p>
+							</div>
+						</div>
+						<div class="bottom-line"></div>
+
+						<div class="more-info">
+							<p>
+								Use this space to provide users with somem more information
+								about your offer. Consider it a follow-up to your headline and
+								explain the benefits of your service or product.
+							</p>
+							<ol>
+								<li>
+									Your first feature, written in the form of a benefit
+									statement.
+								</li>
+								<li>
+									Your second feature, written in the form of a benefit
+									statement.
+								</li>
+								<li>
+									Your third feature, written in the form of a benefit
+									statement.
+								</li>
+							</ol>
+						</div>
+					</div>
+					<div class="column-right">
+						<div class="form-container">
+							<h3>Contact Us</h3>
+							<p>
+								Sales akan menghubungi anda 1x24 jam setelah data kami terima.
+							</p>
+
+							<form id="myForm" onsubmit="validateForm(event)">
+								<label for="name">Name:</label>
+								<input
+									type="text"
+									id="name"
+									name="name"
+									placeholder="First and last name"
+			
+								/>
+
+								<label for="email">Email Address:</label>
+								<input
+									type="email"
+									id="email"
+									name="email"
+									placeholder="example@email.com"
+									
+								/>
+
+								<label for="interest">What are you interested in?</label>
+								<select id="interest" name="interest" >
+									<option value="">Select an option</option>
+									<option value="option1">Option 1</option>
+									<option value="option2">Option 2</option>
+									<option value="option3">Option 3</option>
+								</select>
+
+								<button type="submit" value="Send">SEND</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="our-package">
+				<div class="package-title">
+					<h1>Our Package</h1>
+				</div>
+				<div class="container">
+					<div class="list-container">
+						<div class="list-item">
+							<h3>Fresh Vegetable</h3>
+							<p>Sayuran segar langsung dari sumber pertanian terbaik</p>
+						</div>
+						<div class="list-item">
+							<h3>Fresh Fruit</h3>
+							<p>
+								Buah dengan kualitas terbaik dari lokal atau import dan harga
+								menarik
+							</p>
+						</div>
+						<div class="list-item">
+							<h3>Instant Delivery</h3>
+							<p>
+								Dikirim instan oleh kurir yang telah di training dengan SOP
+								untuk menjaga kondisi belanja kamu
+							</p>
+						</div>
+						<div class="list-item">
+							<h3>Kitchen ingredient</h3>
+							<p>Bumbu dapur lengkap untuk keperluan memasak kamu</p>
+						</div>
+						<div class="list-item">
+							<h3>Kitchen Set</h3>
+							<p>Segala jenis alat masak untuk membantu kamu memasak</p>
+						</div>
+						<div class="list-item">
+							<h3>Bunding Set</h3>
+							<p>
+								Bingung masak apa? Sudah tersedia paket untuk kamu masak di
+								dapurmu
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="call-us">
+				<h1>Your Closing Argument Headline</h1>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consequuntur rem minima magnam earum aliquam provident cumque iure laudantium ullam.</p>
+				<button>CALL TO ACTION</button>
+			</section>
+		</main>
+
+		<footer>
+			<h3>moqups</h3>
+			<div class="top-footer">
+				<p>Terms of Service</p>
+				<p>Privacy Policy</p>
+			</div>
+			<div class="bot-footer">
+				<p>© 2019</p>
+				<p>Moqups</p>
+			</div>
+		</footer>
+
+		<script src="./javascript/script.js"></script>
+	</body>
+</html>
